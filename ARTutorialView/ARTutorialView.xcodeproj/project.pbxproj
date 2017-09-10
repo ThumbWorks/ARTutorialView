@@ -9,17 +9,58 @@
 /* Begin PBXBuildFile section */
 		5F45ED8D1F63BABC004A4627 /* ARTutorialView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F45ED8B1F63BABC004A4627 /* ARTutorialView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F45ED951F63BAD6004A4627 /* ARTutorialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F45ED941F63BAD6004A4627 /* ARTutorialView.m */; };
+		5F76EEBD1F63BF010070018B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F76EEBC1F63BF010070018B /* AppDelegate.swift */; };
+		5F76EEBF1F63BF010070018B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F76EEBE1F63BF010070018B /* ViewController.swift */; };
+		5F76EEC21F63BF010070018B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F76EEC01F63BF010070018B /* Main.storyboard */; };
+		5F76EEC41F63BF010070018B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F76EEC31F63BF010070018B /* Assets.xcassets */; };
+		5F76EEC71F63BF010070018B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F76EEC51F63BF010070018B /* LaunchScreen.storyboard */; };
+		5F76EED81F63BFC70070018B /* iPhone6.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5F76EECD1F63BF9E0070018B /* iPhone6.dae */; settings = {ATTRIBUTES = ("--compress", ); }; };
+		5F76EED91F63BFD20070018B /* Birchwood_laminated.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F76EED31F63BFB20070018B /* Birchwood_laminated.jpg */; };
+		5F76EEDA1F63BFD20070018B /* Birchwood_solid_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F76EED41F63BFB20070018B /* Birchwood_solid_01.jpg */; };
+		5F76EEDB1F63BFD20070018B /* Birchwood_solid_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F76EED51F63BFB20070018B /* Birchwood_solid_2.jpg */; };
+		5F76EEDC1F63BFD20070018B /* Birchwood_solid_2_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F76EED61F63BFB20070018B /* Birchwood_solid_2_0.jpg */; };
+		5F76EEDD1F63BFD50070018B /* table.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5F76EECE1F63BFB10070018B /* table.dae */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F76EEDF1F64FAD10070018B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F45ED7F1F63BABC004A4627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F45ED871F63BABC004A4627;
+			remoteInfo = ARTutorialView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5F45ED881F63BABC004A4627 /* ARTutorialView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARTutorialView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F45ED8B1F63BABC004A4627 /* ARTutorialView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTutorialView.h; sourceTree = "<group>"; };
 		5F45ED8C1F63BABC004A4627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F45ED941F63BAD6004A4627 /* ARTutorialView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTutorialView.m; sourceTree = "<group>"; };
+		5F76EEBA1F63BF010070018B /* ARTutorialViewTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTutorialViewTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F76EEBC1F63BF010070018B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F76EEBE1F63BF010070018B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F76EEC11F63BF010070018B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F76EEC31F63BF010070018B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F76EEC61F63BF010070018B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F76EEC81F63BF010070018B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F76EECD1F63BF9E0070018B /* iPhone6.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = iPhone6.dae; sourceTree = "<group>"; };
+		5F76EECE1F63BFB10070018B /* table.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = table.dae; sourceTree = "<group>"; };
+		5F76EED31F63BFB20070018B /* Birchwood_laminated.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Birchwood_laminated.jpg; sourceTree = "<group>"; };
+		5F76EED41F63BFB20070018B /* Birchwood_solid_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Birchwood_solid_01.jpg; sourceTree = "<group>"; };
+		5F76EED51F63BFB20070018B /* Birchwood_solid_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Birchwood_solid_2.jpg; sourceTree = "<group>"; };
+		5F76EED61F63BFB20070018B /* Birchwood_solid_2_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Birchwood_solid_2_0.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5F45ED841F63BABC004A4627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F76EEB71F63BF010070018B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				5F45ED8A1F63BABC004A4627 /* ARTutorialView */,
+				5F76EEBB1F63BF010070018B /* ARTutorialViewTestApp */,
 				5F45ED891F63BABC004A4627 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				5F45ED881F63BABC004A4627 /* ARTutorialView.framework */,
+				5F76EEBA1F63BF010070018B /* ARTutorialViewTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,11 +91,46 @@
 		5F45ED8A1F63BABC004A4627 /* ARTutorialView */ = {
 			isa = PBXGroup;
 			children = (
+				5F76EEE11F64FBD10070018B /* objects.scnassets */,
 				5F45ED8B1F63BABC004A4627 /* ARTutorialView.h */,
 				5F45ED941F63BAD6004A4627 /* ARTutorialView.m */,
 				5F45ED8C1F63BABC004A4627 /* Info.plist */,
 			);
 			path = ARTutorialView;
+			sourceTree = "<group>";
+		};
+		5F76EEBB1F63BF010070018B /* ARTutorialViewTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				5F76EEBC1F63BF010070018B /* AppDelegate.swift */,
+				5F76EEBE1F63BF010070018B /* ViewController.swift */,
+				5F76EEC01F63BF010070018B /* Main.storyboard */,
+				5F76EEC31F63BF010070018B /* Assets.xcassets */,
+				5F76EEC51F63BF010070018B /* LaunchScreen.storyboard */,
+				5F76EEC81F63BF010070018B /* Info.plist */,
+			);
+			path = ARTutorialViewTestApp;
+			sourceTree = "<group>";
+		};
+		5F76EED21F63BFB20070018B /* table */ = {
+			isa = PBXGroup;
+			children = (
+				5F76EED31F63BFB20070018B /* Birchwood_laminated.jpg */,
+				5F76EED41F63BFB20070018B /* Birchwood_solid_01.jpg */,
+				5F76EED51F63BFB20070018B /* Birchwood_solid_2.jpg */,
+				5F76EED61F63BFB20070018B /* Birchwood_solid_2_0.jpg */,
+			);
+			path = table;
+			sourceTree = "<group>";
+		};
+		5F76EEE11F64FBD10070018B /* objects.scnassets */ = {
+			isa = PBXGroup;
+			children = (
+				5F76EECE1F63BFB10070018B /* table.dae */,
+				5F76EED21F63BFB20070018B /* table */,
+				5F76EECD1F63BF9E0070018B /* iPhone6.dae */,
+			);
+			path = objects.scnassets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,16 +165,39 @@
 			productReference = 5F45ED881F63BABC004A4627 /* ARTutorialView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		5F76EEB91F63BF010070018B /* ARTutorialViewTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F76EECB1F63BF010070018B /* Build configuration list for PBXNativeTarget "ARTutorialViewTestApp" */;
+			buildPhases = (
+				5F76EEB61F63BF010070018B /* Sources */,
+				5F76EEB71F63BF010070018B /* Frameworks */,
+				5F76EEB81F63BF010070018B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F76EEE01F64FAD10070018B /* PBXTargetDependency */,
+			);
+			name = ARTutorialViewTestApp;
+			productName = ARTutorialViewTestApp;
+			productReference = 5F76EEBA1F63BF010070018B /* ARTutorialViewTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5F45ED7F1F63BABC004A4627 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Roderic Campbell";
 				TargetAttributes = {
 					5F45ED871F63BABC004A4627 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					5F76EEB91F63BF010070018B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -108,6 +209,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 5F45ED7E1F63BABC004A4627;
 			productRefGroup = 5F45ED891F63BABC004A4627 /* Products */;
@@ -115,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				5F45ED871F63BABC004A4627 /* ARTutorialView */,
+				5F76EEB91F63BF010070018B /* ARTutorialViewTestApp */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +227,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F76EEDB1F63BFD20070018B /* Birchwood_solid_2.jpg in Resources */,
+				5F76EEDA1F63BFD20070018B /* Birchwood_solid_01.jpg in Resources */,
+				5F76EED81F63BFC70070018B /* iPhone6.dae in Resources */,
+				5F76EEDC1F63BFD20070018B /* Birchwood_solid_2_0.jpg in Resources */,
+				5F76EED91F63BFD20070018B /* Birchwood_laminated.jpg in Resources */,
+				5F76EEDD1F63BFD50070018B /* table.dae in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F76EEB81F63BF010070018B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F76EEC71F63BF010070018B /* LaunchScreen.storyboard in Resources */,
+				5F76EEC41F63BF010070018B /* Assets.xcassets in Resources */,
+				5F76EEC21F63BF010070018B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +257,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F76EEB61F63BF010070018B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F76EEBF1F63BF010070018B /* ViewController.swift in Sources */,
+				5F76EEBD1F63BF010070018B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F76EEE01F64FAD10070018B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F45ED871F63BABC004A4627 /* ARTutorialView */;
+			targetProxy = 5F76EEDF1F64FAD10070018B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F76EEC01F63BF010070018B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F76EEC11F63BF010070018B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F76EEC51F63BF010070018B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F76EEC61F63BF010070018B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F45ED8E1F63BABC004A4627 /* Debug */ = {
@@ -264,6 +419,7 @@
 				INFOPLIST_FILE = ARTutorialView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.thumbworks.ARTutorialView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -284,9 +440,51 @@
 				INFOPLIST_FILE = ARTutorialView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.thumbworks.ARTutorialView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F76EEC91F63BF010070018B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4WTN36U2F;
+				INFOPLIST_FILE = ARTutorialViewTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.thumbworks.ARTutorialViewTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F76EECA1F63BF010070018B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4WTN36U2F;
+				INFOPLIST_FILE = ARTutorialViewTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.thumbworks.ARTutorialViewTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -308,6 +506,15 @@
 			buildConfigurations = (
 				5F45ED911F63BABC004A4627 /* Debug */,
 				5F45ED921F63BABC004A4627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F76EECB1F63BF010070018B /* Build configuration list for PBXNativeTarget "ARTutorialViewTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F76EEC91F63BF010070018B /* Debug */,
+				5F76EECA1F63BF010070018B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
